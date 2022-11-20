@@ -53,5 +53,3 @@ def parse_seed_phrase(seed_phrase: str, derivation_path:str=KEY_DERIVATION_PATH)
         "secret_key": secret_key,
         "public_key": public_key,
     }
-
-print(generate_seed_phrase())
