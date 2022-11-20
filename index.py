@@ -52,4 +52,5 @@ def parse_seed_phrase(seed_phrase: str, derivation_path:str=KEY_DERIVATION_PATH)
         "seed_phrase": seed_phrase,
         "secret_key": secret_key,
         "public_key": public_key,
+        "public_key_hex": base58.b58decode(public_key.replace("ed25519:", "")).hex()
     }
