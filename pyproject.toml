@@ -9,10 +9,10 @@ homepage = "https://github.com/lachlanglen/near-seed-phrase-py"
 repository = "https://github.com/lachlanglen/near-seed-phrase-py"
 keywords = ["near", "seedphrase", "python"]
 include = ["LICENSE"]
-packages = [{ include = "near_seed_phrase_py" }]
+packages = [{ include = "near_seed_phrase" }]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.8"
 mnemonic = "^0.20"
 base58 = "^2.1.1"
 ed25519 = "^1.5"
