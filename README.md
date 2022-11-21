@@ -1,8 +1,9 @@
 # NEAR Seed Phrase
 
-### Status: BETA, contributions welcome!
-
 Python tool for creating and converting mnemonic-phrases, public key and private key for NEAR accounts.
+
+### 🚨 Status: BETA, contributions welcome!
+
 #### Ported to Python from https://github.com/near/near-seed-phrase
 ### Install
 
@@ -10,9 +11,9 @@ Python tool for creating and converting mnemonic-phrases, public key and private
 poetry add near-seed-phrase-py
 ```
 
-```
+```py
 poetry shell
-poetry show -v // copy this virtualenv path and set it as your Python interpreter 
+poetry show -v # copy this virtualenv path and set it as your Python interpreter 
 poetry install
 ```
 
@@ -25,8 +26,8 @@ Returns:
 
 {
     seed_phrase: str # BIP39 seed phrase
-    secret_key: str # ed25519 secret/private key, formatted for NEAR
-    public_key: str # ed25519 public key, formatted for NEAR
+    secret_key: str # ed25519 secret/private key, formatted for NEAR (e.g. "ed25519:[SECRET_KEY]")
+    public_key: str # ed25519 public key, formatted for NEAR (e.g. "ed25519:[PUBLIC_KEY]")
     public_key_hex: str # lowercase hex representation of public_key that can be used as an implicit account ID; see https://docs.near.org/integrator/implicit-accounts
 } 
 
