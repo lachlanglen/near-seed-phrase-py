@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "near-seed-phrase-py"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "near_seed_phrase_py"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mnemonic = "^0.20"
+base58 = "^2.1.1"
+ed25519 = "^1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
