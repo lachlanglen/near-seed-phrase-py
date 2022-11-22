@@ -30,5 +30,3 @@ def generate_seed_phrase(strength=128):
     """ Generates a bip39 seed phrase """
     # near-seed-phrase JS library uses strength of 128, so using that as default here
     return parse_seed_phrase(mnemo.generate(strength))
-
-# print(generate_seed_phrase())
