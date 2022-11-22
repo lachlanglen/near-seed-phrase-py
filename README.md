@@ -19,6 +19,9 @@ poetry install
 
 ### Usage
 ```py
+from near_seed_phrase.main import generate_seed_phrase, parse_seed_phrase
+```
+```py
 # Generate a BIP39 seed phrase with its corresponding Keys
 generate_seed_phrase()
 

@@ -7,7 +7,7 @@ license = "MIT"
 readme = "README.md"
 homepage = "https://github.com/lachlanglen/near-seed-phrase-py"
 repository = "https://github.com/lachlanglen/near-seed-phrase-py"
-keywords = ["near", "seedphrase", "python"]
+keywords = ["near", "seedphrase", "seed", "phrase", "python"]
 include = ["LICENSE"]
 packages = [{ include = "near_seed_phrase" }]
 
