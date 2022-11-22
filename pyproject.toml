@@ -12,7 +12,7 @@ include = ["LICENSE"]
 packages = [{ include = "near_seed_phrase" }]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.9"
 mnemonic = "^0.20"
 base58 = "^2.1.1"
 ed25519 = "^1.5"
