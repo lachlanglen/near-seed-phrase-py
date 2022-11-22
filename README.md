@@ -42,6 +42,10 @@ parse_seed_phrase(seed_phrase)
 
 ```
 
+### Test
 
+```
+python tests/main.test.py
+```
 
 
