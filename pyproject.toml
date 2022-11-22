@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "near-seed-phrase-py"
-version = "0.1.0"
+version = "0.1.1"
 description = "Python tool for creating and converting mnemonic-phrases, public key and private key for NEAR accounts."
 authors = ["Lachlan Glen <lachlanjglen@gmail.com>"]
 license = "MIT"
@@ -15,7 +15,7 @@ packages = [{ include = "near_seed_phrase" }]
 python = "^3.9"
 mnemonic = "^0.20"
 base58 = "^2.1.1"
-ed25519 = "^1.5"
+pynacl = "^1.5.0"
 
 [build-system]
 requires = ["poetry-core"]
