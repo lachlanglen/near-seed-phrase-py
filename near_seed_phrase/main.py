@@ -1,9 +1,9 @@
 from mnemonic import Mnemonic
 import ed25519
 import base58
-from utils.hd_key import derive_path
-from utils.near_keys import format_ed25519_key, base_58_key
-from utils.seed_phrase import normalize_seed_phrase
+from near_seed_phrase.utils.hd_key import derive_path
+from near_seed_phrase.utils.near_keys import format_ed25519_key, base_58_key
+from near_seed_phrase.utils.seed_phrase import normalize_seed_phrase
 
 KEY_DERIVATION_PATH = "m/44'/397'/0'"
 HARDENED_OFFSET = 0x80000000
