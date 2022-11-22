@@ -7,22 +7,24 @@ Python tool for creating and converting mnemonic-phrases, public key and private
 #### Ported to Python from https://github.com/near/near-seed-phrase
 ### Install
 
-```py
-poetry add near-seed-phrase-py
-```
-
+#### Poetry
 ```py
 poetry shell
 poetry show -v # copy this virtualenv path and set it as your Python interpreter 
-poetry install
+poetry add near-seed-phrase-py
+```
+
+#### Pip
+```py
+pip install near-seed-phrase-py
 ```
 
 ### Usage
 ```py
 from near_seed_phrase.main import generate_seed_phrase, parse_seed_phrase
-```
-```py
+
 # Generate a BIP39 seed phrase with its corresponding Keys
+
 generate_seed_phrase()
 
 Returns:
@@ -35,6 +37,7 @@ Returns:
 } 
 
 # Recover keys from a BIP39 seed phrase (returns same response as generate_seed_phrase())
+
 parse_seed_phrase(seed_phrase)
 
 ```
